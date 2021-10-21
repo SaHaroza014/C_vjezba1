@@ -12,11 +12,20 @@ int main()
 
     suma = a1 + a2;
 
-    razlika = a1 - a2; // napraviti if funkciju ako je a1 veci od a2 onda razlika = a1-a2, u protivnom razlika=a2-a1
+    // kako prikazati negativni broj nastao oduzimanjem???
+    //provjeriti ovu sintaksu
+    if (a1 > a2) {
+        razlika = a1 - a2;
+    } else if (a2 > a1) { razlika = a2 - a1; };
 
-    produkt = a1 * a2; //ista situacija
 
-    djeljenik = a1 / a2; //isto kao i za razliku te produkt
+    produkt = a1 * a2; 
+
+    //provjeriti
+    if (a1 > a2) {
+        djeljenik = a1 / a2;
+    }
+    else if (a2 > a1) { djeljenik = a2 / a1; };
 
 
     printf("Suma cijelih brojeva a1 i a2 je %d\n", suma);

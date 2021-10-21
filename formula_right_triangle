@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+    float a1;
+    float a2;
+    float P;
+
+    printf("Vrijednost katete a1 i a2: \n");
+    scanf("%f %f", &a1, &a2);
+
+
+    P = (a1 * a2) / 2.0;
+
+    printf("Povrsina pravokutnog trokuta je %f\n", P);
+
+    return 0;
+}
+

@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+    int a;
+
+    printf("Unesite vrijednost varijable a:\n");
+
+    // reads and stores input
+    scanf("%d", &a);
+
+    //displays output
+    printf("Unijeli ste vrijednost: %d", a);
+
+    return 0;
+}

@@ -1,0 +1,29 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+    int a1, a2, suma, razlika, produkt, djeljenik  ;
+
+    printf("Unesite cijele brojeve: \n");
+    scanf("%d %d", &a1, &a2);
+
+    printf("Cijeli brojevi su %d i %d\n", a1, a2);
+
+    suma = a1 + a2;
+
+    razlika = a1 - a2; // napraviti if funkciju ako je a1 veci od a2 onda razlika = a1-a2, u protivnom razlika=a2-a1
+
+    produkt = a1 * a2; //ista situacija
+
+    djeljenik = a1 / a2; //isto kao i za razliku te produkt
+
+
+    printf("Suma cijelih brojeva a1 i a2 je %d\n", suma);
+    printf("Razlika cijelih brojeva a1 i a2 je %d\n", razlika);
+    printf("Produkt cijelih brojeva a1 i a2 je %d\n", produkt);
+    printf("Djeljenik cijelih brojeva a1 i a2 je %d\n", djeljenik);
+
+    return 0;
+}
+
